@@ -1,4 +1,4 @@
-# Tophawks AI Internship Assignment
+ Tophawks AI Internship Assignment
 
 This project was developed as part of the Tophawks AI Internship screening assignment.
 
@@ -16,12 +16,11 @@ It demonstrates practical implementation of AI-driven solutions for lead scoring
 ---
 
 ## 📁 Project Structure
-
 Tophawks_Assignment/
 │
 ├── data/
-│   ├── leads.csv
-│   └── cleaned_data.csv
+│ ├── leads.csv
+│ └── cleaned_data.csv
 │
 ├── lead_scoring.py
 ├── messy_data.py
@@ -40,4 +39,41 @@ The mini AI tool processes lead data, assigns scores based on engagement signals
 
 ## ⚙️ How to Run
 
-1. Clone the repository:
+Clone the repository:
+
+git clone https://github.com/LEOLANDER2456/Tophawks_Assignment.git
+
+Navigate to the folder:
+
+cd Tophawks_Assignment
+
+
+Run the scripts:
+
+python lead_scoring.py
+python messy_data.py
+python workflow_email.py
+python app.py
+
+---
+
+## 📊 Output
+
+- Ranked leads with scores and categories  
+- Cleaned dataset saved as `cleaned_data.csv`  
+- Automatically generated follow-up email  
+
+---
+
+## 💡 Key Highlights
+
+- Simple and effective rule-based lead scoring  
+- Handling of messy and inconsistent data  
+- Automation of manual workflows  
+- Focus on real-world business impact  
+
+---
+
+## 📌 Note
+
+This project focuses on simplicity, clarity, and practical implementation rather than complex models.
